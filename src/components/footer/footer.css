@@ -1,0 +1,14 @@
+footer {
+  background-color: #333;
+  min-height: 300px;
+  display: grid;
+  align-items: center;
+}
+
+.footer-container {
+  margin: 0 12rem;
+}
+
+.footer-logo img {
+  width: 7rem;
+}

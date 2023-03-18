@@ -1,0 +1,30 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 12rem;
+  padding: 3.5rem 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+img {
+  margin-right: 5rem;
+}
+
+li {
+  padding: 0 15px;
+  font-weight: 600;
+}
