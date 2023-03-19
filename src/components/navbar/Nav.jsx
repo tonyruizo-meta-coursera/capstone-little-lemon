@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, } from "react-router-dom";
 import Logo from "../../assets/img/Logo.svg";
 import "./nav.css";
 
@@ -34,6 +34,9 @@ const Nav = () => {
           </ul>
         </div>
       </div>
+      {/* <Routes>
+        <Route path="/" element={<Homepage />}></Route>
+      </Routes> */}
     </nav>
   );
 };

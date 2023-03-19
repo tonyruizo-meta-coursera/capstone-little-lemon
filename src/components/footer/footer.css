@@ -1,14 +1,37 @@
 footer {
   background-color: #333;
   min-height: 300px;
-  display: grid;
   align-items: center;
 }
 
 .footer-container {
+  display: grid;
+  grid-template-columns: 20% 26.5% 26.5% 27%;
+  justify-content: center;
+  align-items: center;
   margin: 0 12rem;
+  min-height: inherit;
+}
+
+.footer-container ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  align-self: center;
+  grid-column: 1/2;
 }
 
 .footer-logo img {
   width: 7rem;
+  justify-self: center;
+  margin: 0;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/3;
+  padding: 0;
 }
