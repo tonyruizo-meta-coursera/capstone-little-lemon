@@ -1,14 +1,11 @@
 footer {
   background-color: #333;
   min-height: 300px;
-  align-items: center;
 }
 
 .footer-container {
   display: grid;
   grid-template-columns: 20% 26.5% 26.5% 27%;
-  justify-content: center;
-  align-items: center;
   margin: 0 12rem;
   min-height: inherit;
 }
@@ -16,22 +13,41 @@ footer {
 .footer-container ul {
   display: flex;
   flex-direction: column;
+  padding-top: 10px;
+  color: #edefee;
+}
+
+.footer-container li {
+  padding: 4px 0;
+}
+
+.footer-container .heading {
+  color: #f4ce14;
+  font-weight: 700;
 }
 
 .footer-logo {
-  align-self: center;
   grid-column: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-logo img {
   width: 7rem;
-  justify-self: center;
-  margin: 0;
 }
 
 .footer-nav {
   display: flex;
   flex-direction: column;
   grid-column: 2/3;
-  padding: 0;
+  padding-top: 60px;
+}
+
+.footer-contact {
+  padding-top: 60px;
+}
+
+.footer-social {
+  padding-top: 60px;
 }

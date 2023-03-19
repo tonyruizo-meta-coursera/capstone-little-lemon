@@ -37,26 +37,24 @@ const Footer = () => {
         </div>
 
         <div className="footer-contact">
-          <div className="heading">
-            <div className="footer-contact-links">
-              <ul>
-                <li>123 W Main St. Miami, FL</li>
-                <li>855-222-1111</li>
-                <li>little.lemon@restaurant.com</li>
-              </ul>
-            </div>
+          <div className="heading">Contact</div>
+          <div className="footer-contact-links">
+            <ul>
+              <li>123 W Main St. Miami, FL</li>
+              <li>855-222-1111</li>
+              <li>little.lemon@restaurant.com</li>
+            </ul>
           </div>
         </div>
 
         <div className="footer-social">
-          <div className="heading">
-            <div className="footer-social-links">
-              <ul>
-                <li>Facebook</li>
-                <li>Twitter</li>
-                <li>Instagram</li>
-              </ul>
-            </div>
+          <div className="heading">Social Media Links</div>
+          <div className="footer-social-links">
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+            </ul>
           </div>
         </div>
       </div>

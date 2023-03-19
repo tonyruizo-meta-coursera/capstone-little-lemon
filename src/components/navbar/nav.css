@@ -9,7 +9,6 @@
 ul {
   list-style-type: none;
   display: flex;
-  margin: 0 auto;
 }
 
 a {
@@ -20,7 +19,7 @@ a:visited {
   color: inherit;
 }
 
-li {
+.navbar-links li {
   padding: 0 15px;
   font-weight: 600;
 }
