@@ -3,6 +3,22 @@ import "./footer.css";
 import LogoFooter from "../../assets/img/LogoFooter.png";
 import { Link } from 'react-router-dom';
 
+const socials = [
+  {
+    text: "Facebook",
+    url: "https://www.facebook.com"
+  },
+  {
+    text: "Twitter",
+    url: "https://www.twitter.com"
+  },
+  {
+    text: "Instagram",
+    url: "https://www.instagram.com"
+  },
+];
+
+
 const Footer = () => {
   return (
     <footer>
@@ -51,9 +67,11 @@ const Footer = () => {
           <div className="heading">Social Media Links</div>
           <div className="footer-social-links">
             <ul>
-              <li>Facebook</li>
-              <li>Twitter</li>
-              <li>Instagram</li>
+              {socials.map((link) => (
+                <li key={link.url}>
+                  <a href={link.url} target="_blank" rel='noopener noreferrer'>{link.text}</a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
