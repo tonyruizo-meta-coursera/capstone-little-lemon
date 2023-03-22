@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import LogoFooter from "../../assets/img/LogoFooter.png";
+import LogoFooter from "../../assets/img-logos/LogoFooter.png";
 import { Link } from 'react-router-dom';
 
 const socials = [
@@ -17,7 +17,6 @@ const socials = [
     url: "https://www.instagram.com"
   },
 ];
-
 
 const Footer = () => {
   return (
