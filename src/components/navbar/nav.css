@@ -11,10 +11,6 @@ ul {
   display: flex;
 }
 
-a {
-  text-decoration: none;
-}
-
 a:visited {
   color: inherit;
 }
