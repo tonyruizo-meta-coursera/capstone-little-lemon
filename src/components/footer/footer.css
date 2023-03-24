@@ -1,6 +1,6 @@
 footer {
   background-color: #333;
-  min-height: 300px;
+  min-height: 18.75rem;
   bottom: 0;
   width: 100%;
 }
@@ -43,13 +43,13 @@ footer {
   display: flex;
   flex-direction: column;
   grid-column: 2/3;
-  padding-top: 60px;
+  padding-top: 3.75rem;
 }
 
 .footer-contact {
-  padding-top: 60px;
+  padding-top: 3.75rem;
 }
 
 .footer-social {
-  padding-top: 60px;
+  padding-top: 3.75rem;
 }
