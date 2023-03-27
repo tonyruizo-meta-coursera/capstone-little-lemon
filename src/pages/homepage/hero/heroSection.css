@@ -1,4 +1,32 @@
 #hero-section {
-  min-height: 12.5rem;
-  background-color: aqua;
+  min-height: 25rem;
+  background-color: #495e57;
+  color: #edefee;
+}
+
+.hero-container {
+  display: grid;
+  margin: 0 12rem;
+  grid-template-columns: 1fr 1fr;
+  min-width: inherit;
+}
+
+.hero-info-container {
+  grid-column: 1/2;
+}
+
+.hero-image-container {
+  grid-column: 2/3;
+  justify-self: flex-end;
+  position: relative;
+}
+
+.hero-img-item img {
+  width: 20rem;
+  height: 18rem;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+  left: 40%;
+  bottom: 1%;
 }
