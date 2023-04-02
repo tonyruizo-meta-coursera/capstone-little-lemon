@@ -3,6 +3,21 @@
   margin: 0;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+/* font-family: 'Karla', sans-serif; */
+
+:root {
+  --primary-color-1: #f4c414;
+  --primary-color-2: #495e57;
+  --secondary-color-1: #ee9972;
+  --secondary-color-2: #fbdabb;
+  --highlight-color-1: #edefee;
+  --highlight-color-2: #333;
+
+  --primary-color-1-hover: #b8930d;
+}
+
 html {
   scroll-behavior: smooth;
 }
