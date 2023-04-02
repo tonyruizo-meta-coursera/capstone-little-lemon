@@ -1,5 +1,5 @@
 footer {
-  background-color: #333;
+  background-color: var(--highlight-color-2);
   min-height: 18.75rem;
   bottom: 0;
   width: 100%;
@@ -16,7 +16,7 @@ footer {
   display: flex;
   flex-direction: column;
   padding-top: 10px;
-  color: #edefee;
+  color: var(--highlight-color-1);
 }
 
 .footer-container li {
@@ -24,7 +24,7 @@ footer {
 }
 
 .footer-container .heading {
-  color: #f4ce14;
+  color: var(--primary-color-1);
   font-weight: 700;
 }
 
