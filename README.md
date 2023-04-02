@@ -2,14 +2,17 @@
 
 #### Tools:
 
-- Figma (for wireframing.)
-- HTML5
-- CSS
+- Figma
 - React, JSX
+- CSS
 
 ---
 
-#### Planning the UX/UI, including project wireframing, creating a component and applying design fundamentals in Figma.
+#### Figma
+
+- Planning the UX/UI, applying design fundamentals
+- Project Wireframing
+- Create components
 
 <img src="src/assets/screenshots/wireframe-screenshot.png" width="250" height="200" />
 <img src="src/assets/screenshots/component-screenshot.png" width="400" height="200" />
