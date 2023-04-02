@@ -1,6 +1,7 @@
 import React from "react";
 import './heroSection.css';
 import restaurant from '../../../assets/img-misc/restauranfood.jpg';
+import PrimaryBtn from "../../../components/buttons/PrimaryBtn";
 
 const HeroSection = () => {
   return (
@@ -17,10 +18,10 @@ const HeroSection = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Harum architecto illo doloremque, corporis provident eaque aperiam ab! Neque quisquam molestiae molestias vel!
             Eius ab earum necessitatibus, iusto recusandae quisquam hic provident doloremque fuga fugiat
-            error sunt, ad neque dignissimos nam.
+            error.
           </div>
           <div className="hero-btn">
-            Reserve a Table
+            <PrimaryBtn>Reserve a Table</PrimaryBtn>
           </div>
         </div>
         <div className="hero-image-container">

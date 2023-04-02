@@ -1,32 +1,44 @@
 #hero-section {
   min-height: 25rem;
-  background-color: #495e57;
-  color: #edefee;
+  background-color: var(--primary-color-2);
+  color: var(--highlight-color-1);
+  display: flex;
+  align-items: center;
 }
 
 .hero-container {
   display: grid;
   margin: 0 12rem;
   grid-template-columns: 1fr 1fr;
-  min-width: inherit;
+  min-height: inherit;
+  width: 100%;
 }
 
 .hero-info-container {
   grid-column: 1/2;
+  align-self: center;
+}
+
+.hero-info-heading {
+  color: var(--primary-color-1);
+  font-family: "Markazi Text", serif;
+  font-size: 4rem;
+}
+
+.hero-info-text {
+  font-weight: 600;
+  padding: 30px 0;
+  max-width: 400px;
 }
 
 .hero-image-container {
   grid-column: 2/3;
   justify-self: flex-end;
-  position: relative;
+  align-self: center;
 }
 
 .hero-img-item img {
   width: 20rem;
-  height: 18rem;
+  height: 22rem;
   border-radius: 10px;
-  position: absolute;
-  z-index: 1;
-  right: 40px;
-  top: 140px;
 }
