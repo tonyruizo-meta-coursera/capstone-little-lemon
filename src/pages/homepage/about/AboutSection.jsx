@@ -6,12 +6,12 @@ const AboutSection = () => {
     <section id="about-section">
       <div className="about-container">
         <div className="about-info-container">
-          <div className="about-info-heading">
+          <h1 className="about-info-heading">
             Little Lemon
-          </div>
-          <div className="about-info-subHeading">
+          </h1>
+          <h3 className="about-info-subHeading">
             Chicago
-          </div>
+          </h3>
           <div className="about-info-text">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Ullam cumque doloribus in provident eligendi iste, quam quibusdam accusantium tempora
