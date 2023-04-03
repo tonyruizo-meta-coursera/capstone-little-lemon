@@ -1,0 +1,33 @@
+#menu-section {
+  min-height: 40rem;
+}
+
+.menu-container {
+  min-height: inherit;
+  margin: 0 12rem;
+}
+
+.menu-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem 0;
+}
+
+.menu-heading {
+  grid-column: 1/2;
+  font-size: 3rem;
+  font-family: "Markazi Text", serif;
+  font-weight: 400;
+}
+
+.menu-btn {
+  grid-column: 2/3;
+  align-self: center;
+  justify-self: flex-end;
+}
+
+.menu-display {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8rem;
+}
