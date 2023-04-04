@@ -3,11 +3,14 @@
   margin: 0;
 }
 
+/* Font */
 @import url("https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+/* font-family: "Markazi Text", serif; */
 /* font-family: 'Karla', sans-serif; */
 
 :root {
+  /* Colors */
   --primary-color-1: #f4c414;
   --primary-color-2: #495e57;
   --secondary-color-1: #ee9972;
@@ -15,7 +18,8 @@
   --highlight-color-1: #edefee;
   --highlight-color-2: #333;
 
-  --primary-color-1-hover: #b8930d;
+  /* hover button effect */
+  --lighten-primary-color: #f3d35f;
 }
 
 html {
@@ -41,4 +45,19 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.primary-btn {
+  background-color: var(--primary-color-1);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: rgba(17, 17, 26, 0.15) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 32px;
+}
+
+.primary-btn:hover {
+  background-color: var(--lighten-primary-color);
 }

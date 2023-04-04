@@ -16,7 +16,7 @@ const HeroSection = () => {
           </h3>
           <div className="hero-info-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Harum architecto illo doloremque, corporis provident eaque aperiam ab! Neque quisquam molestiae molestias vel!
+            Harum architecto illo doloremque, corporis provident eaque aperiam ab! Neque molestias vel!
             Eius ab earum necessitatibus, iusto recusandae quisquam hic provident doloremque fuga fugiat
             error.
           </div>

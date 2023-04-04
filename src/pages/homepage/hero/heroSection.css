@@ -26,9 +26,10 @@
 }
 
 .hero-info-text {
-  font-weight: 600;
+  font-weight: 500;
   padding: 30px 0;
   max-width: 400px;
+  line-height: 1.4;
 }
 
 .hero-image-container {
@@ -41,4 +42,10 @@
   width: 20rem;
   height: 22rem;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.2s;
+}
+
+.hero-img-item img:hover {
+  transform: rotate(4deg);
 }
