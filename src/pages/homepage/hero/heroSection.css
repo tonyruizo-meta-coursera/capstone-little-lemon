@@ -8,7 +8,7 @@
 
 .hero-container {
   display: grid;
-  margin: 0 12rem;
+  margin: 0 16rem;
   grid-template-columns: 1fr 1fr;
   min-height: inherit;
   width: 100%;
