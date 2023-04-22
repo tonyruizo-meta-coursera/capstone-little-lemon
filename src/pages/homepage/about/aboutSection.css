@@ -1,8 +1,60 @@
 #about-section {
-  min-height: 12.5rem;
+  min-height: 44rem;
 }
 
 .about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 0 auto;
   max-width: 80rem;
+  min-height: inherit;
+}
+
+.about-info-container {
+  grid-column: 1/2;
+  align-self: center;
+}
+
+.about-info-heading {
+  font-family: "Markazi Text", serif;
+  font-size: 4rem;
+}
+
+.about-info-heading {
+  color: var(--primary-color-1);
+}
+
+.about-info-text {
+  max-width: 25rem;
+  line-height: 1.4;
+  font-weight: 500;
+  padding: 30px 0;
+}
+
+.about-image-container {
+  grid-column: 2/3;
+  display: flex;
+  align-self: center;
+}
+
+.about-image-container img {
+  height: 20rem;
+  width: 24rem;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about1 {
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 40px;
+}
+
+.about2 {
+  position: absolute;
+  z-index: 2;
+  top: -20px;
+  left: 0;
 }

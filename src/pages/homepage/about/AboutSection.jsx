@@ -1,5 +1,7 @@
 import React from "react";
 import './aboutSection.css';
+import about1 from '../../../assets/img-misc/about1.jpg';
+import about2 from '../../../assets/img-misc/about2.jpg';
 
 const AboutSection = () => {
   return (
@@ -22,7 +24,8 @@ const AboutSection = () => {
           </div>
         </div>
         <div className="about-image-container">
-
+          <img src={about1} className='about1' alt="chef in the kitchen" />
+          <img src={about2} className='about2' alt="chef in the kitchen 2" />
         </div>
 
       </div>
