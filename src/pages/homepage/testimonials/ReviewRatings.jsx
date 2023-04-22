@@ -1,8 +1,8 @@
 
-import person1 from '../../../assets/img-testimonials/person1.jpg';
-import person2 from '../../../assets/img-testimonials/person2.jpg';
-import person3 from '../../../assets/img-testimonials/person3.jpg';
-import person4 from '../../../assets/img-testimonials/person4.jpg';
+import person1 from '../../../assets/img-testimonials/person1.png';
+import person2 from '../../../assets/img-testimonials/person2.png';
+import person3 from '../../../assets/img-testimonials/person3.png';
+import person4 from '../../../assets/img-testimonials/person4.png';
 
 export const ReviewRatings = [
   {

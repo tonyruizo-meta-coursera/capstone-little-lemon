@@ -15,7 +15,7 @@ const TestimonialCard = ({ imgSrc, name, review }) => {
       </div>
       <div className="t-card-person">
         <div className="t-card-avatar">
-          {imgSrc}
+          <img src={imgSrc} alt="person avatar" />
         </div>
         <div className="t-card-name">{name}</div>
       </div>

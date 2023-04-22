@@ -1,14 +1,43 @@
 .t-card-container {
+  padding: 1rem;
   background-color: var(--highlight-color-1);
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.15) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
+  overflow: hidden;
+}
+
+.t-card-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 25px 20px 0px;
 }
 
 .img-star {
   width: 20px;
+  padding: 5px;
+  padding-bottom: 15px;
+  align-self: center;
 }
 
 .t-card-person {
   display: flex;
+  align-items: center;
+}
+
+.t-card-avatar {
+  padding-right: 1rem;
+}
+
+.t-card-person img {
+  width: 7rem;
+  border-radius: 50%;
+}
+
+.t-card-name {
+  font-weight: bold;
+}
+
+.t-card-review {
+  padding-top: 20px;
+  font-family: "Karla", sans-serif;
+  width: 16rem;
 }
