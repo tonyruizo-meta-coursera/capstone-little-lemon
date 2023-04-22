@@ -19,3 +19,7 @@ a:visited {
   padding: 0 15px;
   font-weight: 600;
 }
+
+.navbar-links li:hover {
+  color: var(--primary-color-1);
+}
