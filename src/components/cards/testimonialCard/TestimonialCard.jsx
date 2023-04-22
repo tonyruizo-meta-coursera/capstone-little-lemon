@@ -1,17 +1,17 @@
 import React from 'react';
 import './testimonialCard.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import star from '../../../assets/img-misc/star.png';
+
 
 const TestimonialCard = ({ imgSrc, name, review }) => {
   return (
     <div className="t-card-container">
       <div className="t-card-rating">
-        <FontAwesomeIcon icon={faStar} size='1x' className='t-card-star' />
-        <FontAwesomeIcon icon={faStar} size='1x' className='t-card-star' />
-        <FontAwesomeIcon icon={faStar} size='1x' className='t-card-star' />
-        <FontAwesomeIcon icon={faStar} size='1x' className='t-card-star' />
-        <FontAwesomeIcon icon={faStar} size='1x' className='t-card-star' />
+        <img src={star} class='img-star' alt="rating star" />
+        <img src={star} class='img-star' alt="rating star" />
+        <img src={star} class='img-star' alt="rating star" />
+        <img src={star} class='img-star' alt="rating star" />
+        <img src={star} class='img-star' alt="rating star" />
       </div>
       <div className="t-card-person">
         <div className="t-card-avatar">

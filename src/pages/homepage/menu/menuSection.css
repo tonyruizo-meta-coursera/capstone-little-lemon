@@ -1,10 +1,13 @@
 #menu-section {
   min-height: 40rem;
+  align-self: center;
 }
 
 .menu-container {
   min-height: inherit;
-  margin: 0 16rem;
+  margin: 0 auto;
+  max-width: 80rem;
+  align-self: center;
 }
 
 .menu-header {

@@ -8,8 +8,9 @@ footer {
 .footer-container {
   display: grid;
   grid-template-columns: 20% 26.5% 26.5% 27%;
-  margin: 0 16rem;
+  margin: 0 auto;
   min-height: inherit;
+  max-width: 80rem;
 }
 
 .footer-container ul {
@@ -32,7 +33,7 @@ footer {
   grid-column: 1/2;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .footer-logo img {

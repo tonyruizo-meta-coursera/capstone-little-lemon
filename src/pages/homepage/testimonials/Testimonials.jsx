@@ -16,6 +16,7 @@ const Testimonials = () => {
             <TestimonialCard
               key={reviews.id}
               name={reviews.name}
+              imgSrc={reviews.image}
               review={reviews.review}
             />
           ))}

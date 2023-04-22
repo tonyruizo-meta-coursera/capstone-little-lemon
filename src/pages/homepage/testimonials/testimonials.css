@@ -1,7 +1,22 @@
 #testimonial-section {
-  background-color: aquamarine;
+  background-color: var(--primary-color-2);
 }
 
 .testimonial-container {
-  background-color: aquamarine;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 35rem;
+  max-width: 80rem;
+}
+
+.testimonial-header {
+  align-self: center;
+  padding: 6rem 0;
+  font-size: 1.2rem;
+  color: var(--highlight-color-1);
+}
+
+.testimonial-display {
+  display: flex;
 }
