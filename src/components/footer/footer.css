@@ -24,6 +24,10 @@ footer {
   padding: 4px 0;
 }
 
+.footer-container a:hover {
+  color: var(--primary-color-1);
+}
+
 .footer-container .heading {
   color: var(--primary-color-1);
   font-weight: 700;

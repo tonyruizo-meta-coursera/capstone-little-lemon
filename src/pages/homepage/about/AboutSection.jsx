@@ -2,6 +2,7 @@ import React from "react";
 import './aboutSection.css';
 import about1 from '../../../assets/img-misc/about1.jpg';
 import about2 from '../../../assets/img-misc/about2.jpg';
+import PrimaryBtn from "../../../components/buttons/PrimaryBtn";
 
 const AboutSection = () => {
   return (
@@ -21,6 +22,9 @@ const AboutSection = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsa libero facilis,
             nobis voluptas ab laboriosam beatae atque nostrum consequuntur nisi hic expedita enim.
             Dolores exercitationem vel voluptates? Ipsam, incidunt?
+          </div>
+          <div className="about-more-btn">
+            <PrimaryBtn>Read more about Little Lemon</PrimaryBtn>
           </div>
         </div>
         <div className="about-image-container">

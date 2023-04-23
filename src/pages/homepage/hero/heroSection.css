@@ -33,8 +33,9 @@
 
 .hero-image-container {
   grid-column: 2/3;
-  justify-self: flex-end;
-  align-self: center;
+  /* justify-self: flex-end; */
+  /* align-self: center; */
+  position: relative;
 }
 
 .hero-img-item img {
@@ -43,6 +44,9 @@
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all 0.2s;
+  position: absolute;
+  top: 70px;
+  left: 320px;
 }
 
 .hero-img-item img:hover {
