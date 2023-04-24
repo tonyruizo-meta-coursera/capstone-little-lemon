@@ -1,9 +1,9 @@
 import React from 'react';
 
 const PrimaryBtn = (props) => {
-  const { children } = props;
+  const { children, onClick } = props;
   return (
-    <button className='primary-btn'>{children}</button>
+    <button onClick={onClick} className='primary-btn'>{children}</button>
   );
 };
 

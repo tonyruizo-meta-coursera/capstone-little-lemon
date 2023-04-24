@@ -5,6 +5,7 @@ import './menuSection.css';
 import bruchetta from '../../../assets/img-menu/bruchetta.svg';
 import greekSalad from '../../../assets/img-menu/greekSalad.jpg';
 import lemonDessert from '../../../assets/img-menu/lemonDessert.jpg';
+import { useNavigate } from 'react-router-dom';
 
 const MenuSection = () => {
   const menuItems = [
@@ -30,13 +31,16 @@ const MenuSection = () => {
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Sit amet.'
     },
   ];
+
+  const navigate = useNavigate();
+  const handleClick = () => navigate('/menu-page');
   return (
     <section id='menu-section'>
       <div className="menu-container">
         <div className="menu-header">
           <h1 className="menu-heading">This weeks specials!</h1>
           <div className="menu-btn">
-            <PrimaryBtn>Online Menu</PrimaryBtn>
+            <PrimaryBtn onClick={handleClick}>Online Menu</PrimaryBtn>
           </div>
         </div>
         <div className="menu-display">

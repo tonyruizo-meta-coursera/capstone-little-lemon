@@ -33,8 +33,6 @@
 
 .hero-image-container {
   grid-column: 2/3;
-  /* justify-self: flex-end; */
-  /* align-self: center; */
   position: relative;
 }
 

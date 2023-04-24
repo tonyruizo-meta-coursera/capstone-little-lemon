@@ -2,8 +2,11 @@ import React from "react";
 import './heroSection.css';
 import restaurant from '../../../assets/img-misc/restauranfood.jpg';
 import PrimaryBtn from "../../../components/buttons/PrimaryBtn";
-
+import { useNavigate } from "react-router-dom";
 const HeroSection = () => {
+  const navigate = useNavigate();
+  const handleClick = () => navigate('/reservations');
+
   return (
     <section id="hero-section">
       <div className="hero-container">
@@ -21,7 +24,7 @@ const HeroSection = () => {
             error.
           </div>
           <div className="hero-btn">
-            <PrimaryBtn>Reserve a Table</PrimaryBtn>
+            <PrimaryBtn onClick={handleClick}>Reserve a Table</PrimaryBtn>
           </div>
         </div>
         <div className="hero-image-container">

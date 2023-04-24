@@ -3,8 +3,11 @@ import './aboutSection.css';
 import about1 from '../../../assets/img-misc/about1.jpg';
 import about2 from '../../../assets/img-misc/about2.jpg';
 import PrimaryBtn from "../../../components/buttons/PrimaryBtn";
+import { useNavigate } from "react-router-dom";
 
 const AboutSection = () => {
+  const navigate = useNavigate();
+  const handleClick = () => navigate('/about-page');
   return (
     <section id="about-section">
       <div className="about-container">
@@ -24,7 +27,7 @@ const AboutSection = () => {
             Dolores exercitationem vel voluptates? Ipsam, incidunt?
           </div>
           <div className="about-more-btn">
-            <PrimaryBtn>Read more about Little Lemon</PrimaryBtn>
+            <PrimaryBtn onClick={handleClick}>Read more</PrimaryBtn>
           </div>
         </div>
         <div className="about-image-container">
