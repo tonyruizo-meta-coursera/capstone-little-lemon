@@ -18,13 +18,13 @@ const BookingPage = () => {
       email: Yup.string().email('Invalid email').required(),
       date: Yup.date().required().nullable(),
       select: Yup.string().required(),
+      guest: Yup.number().moreThan(0, 'Atleast 1 guest').lessThan(11, "No more than 10").integer().required(),
     }),
     onSubmit: (values, { resetForm }) => {
       alert(`Your info has been submitted and confirmation will be emailed to you! Thank you, ${values.name}.`);
       resetForm({ values: '' });
     }
   });
-
   return (
     <div className="form-container">
       <div className="form-heading">
@@ -68,14 +68,13 @@ const BookingPage = () => {
           <div className="input-container">
             <label htmlFor="guest">Number of guest: </label>
             <input
-              type="number"
+              type='number'
               placeholder='1-10'
               name='guest'
               id='guest'
-              value={formik.setFieldValue.guest}
-              min='1'
-              max='10'
-              required
+              value={formik.values.guest}
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
             />
           </div>
           <div className="form-msg">
