@@ -3,8 +3,8 @@
 #### Tools:
 
 - Figma
-- React, JSX
-- CSS
+- HTML, CSS, JSX, ReactJS
+- Formik, Yup
 
 ---
 
