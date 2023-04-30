@@ -1,6 +1,6 @@
 .aboutPage-container {
   min-height: 90vh;
-  max-width: 80rem;
+  max-width: 70rem;
   margin: 0 auto;
 }
 .aboutPage-header {
@@ -29,7 +29,7 @@
   align-self: center;
 }
 .aboutPage-image img {
-  width: 40rem;
+  width: 35rem;
 }
 
 .aboutPage-btn {

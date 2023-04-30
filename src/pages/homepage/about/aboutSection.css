@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
-  max-width: 80rem;
+  max-width: 70rem;
   min-height: inherit;
 }
 
@@ -42,8 +42,8 @@
 }
 
 .about-image-container img {
-  height: 20rem;
-  width: 24rem;
+  height: 18rem;
+  width: 20rem;
   border-radius: 10px;
   position: relative;
   overflow: hidden;

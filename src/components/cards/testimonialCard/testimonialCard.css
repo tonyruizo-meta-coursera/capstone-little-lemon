@@ -5,6 +5,7 @@
   box-shadow: rgba(50, 50, 93, 0.15) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
   overflow: hidden;
+  width: 15rem;
 }
 
 .t-card-container:hover {
@@ -28,7 +29,7 @@
 }
 
 .t-card-person img {
-  width: 7rem;
+  width: 5rem;
   border-radius: 50%;
 }
 
@@ -39,5 +40,5 @@
 .t-card-review {
   padding-top: 20px;
   font-family: "Karla", sans-serif;
-  width: 16rem;
+  width: 15rem;
 }

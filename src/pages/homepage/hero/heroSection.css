@@ -10,7 +10,7 @@
   margin: 0 auto;
   grid-template-columns: 1fr 1fr;
   min-height: inherit;
-  max-width: 80rem;
+  max-width: 70rem;
 }
 
 .hero-info-container {
@@ -43,8 +43,8 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all 0.2s;
   position: absolute;
-  top: 70px;
-  left: 320px;
+  top: 4.375rem;
+  left: 15rem;
 }
 
 .hero-img-item img:hover {
