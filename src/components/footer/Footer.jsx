@@ -56,8 +56,8 @@ const Footer = () => {
           <div className="footer-contact-links">
             <ul>
               <li>123 W Main St. Miami, FL</li>
-              <li>855-222-1111</li>
-              <li>little.lemon@restaurant.com</li>
+              <li><a href="tel:8552221111">855-222-1111</a></li>
+              <li><a href="mailto:little.lemon@restaurant.com">little.lemon@restaurant.com</a></li>
             </ul>
           </div>
         </div>
