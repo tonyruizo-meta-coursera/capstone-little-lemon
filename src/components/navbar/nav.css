@@ -4,19 +4,13 @@
   justify-content: space-between;
   margin: 0 auto;
   padding: 3.5rem 0;
-  max-width: 70rem;
 }
 
 ul {
   display: flex;
 }
 
-a:visited {
-  color: inherit;
-}
-
 .navbar-links li {
-  padding: 0 15px;
   font-weight: 600;
 }
 

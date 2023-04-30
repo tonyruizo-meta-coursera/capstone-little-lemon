@@ -10,7 +10,6 @@ footer {
   grid-template-columns: 20% 26.5% 26.5% 27%;
   margin: 0 auto;
   min-height: inherit;
-  max-width: 70rem;
 }
 
 .footer-container ul {

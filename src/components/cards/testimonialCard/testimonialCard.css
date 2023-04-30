@@ -42,3 +42,25 @@
   font-family: "Karla", sans-serif;
   width: 15rem;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1160px) {
+  .t-card-container {
+    width: 8.5rem;
+  }
+
+  .img-star {
+    width: 10px;
+  }
+
+  .t-card-person img {
+    width: 2.5rem;
+  }
+
+  .t-card-name {
+    font-size: 0.75rem;
+  }
+
+  .t-card-avatar {
+    padding-right: 0.75rem;
+  }
+}

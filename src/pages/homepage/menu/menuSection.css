@@ -6,7 +6,6 @@
 .menu-container {
   min-height: inherit;
   margin: 0 auto;
-  max-width: 70rem;
   align-self: center;
 }
 
@@ -18,7 +17,6 @@
 
 .menu-heading {
   grid-column: 1/2;
-  font-size: 3rem;
   font-family: "Markazi Text", serif;
   font-weight: 400;
 }

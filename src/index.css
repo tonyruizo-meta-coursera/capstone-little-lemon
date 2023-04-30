@@ -40,6 +40,10 @@ a {
   color: inherit;
 }
 
+a:visited {
+  color: inherit;
+}
+
 ul {
   list-style-type: none;
 }
@@ -57,4 +61,90 @@ ul {
 
 .primary-btn:hover {
   background-color: var(--lighten-primary-color);
+}
+
+/* Media queries */
+
+@media screen and (min-width: 280px) and (max-width: 767px) {
+  .nav-container {
+    background-color: aqua;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1160px) {
+
+  .nav-container,
+  .hero-container,
+  .menu-container,
+  .testimonial-container,
+  .about-container,
+  .footer-container {
+    max-width: 45rem;
+  }
+
+  .nav-container {
+    font-size: 0.85rem;
+    background-color: red;
+  }
+
+  .navbar-links li {
+    padding: 0 10px;
+  }
+
+  .hero-info-heading {
+    font-size: 2rem;
+  }
+
+  .hero-info-text {
+    font-size: 0.75rem;
+  }
+
+  .hero-img-item img {
+    width: 16rem;
+    height: 18rem;
+    top: 8.375rem;
+    left: 6.60rem;
+  }
+
+
+  .menu-heading {
+    font-size: 1.8rem;
+  }
+
+
+}
+
+@media screen and (min-width: 1161px) {
+
+  .nav-container,
+  .hero-container,
+  .menu-container,
+  .testimonial-container,
+  .about-container,
+  .footer-container {
+    max-width: 70rem;
+  }
+
+  .nav-container {
+    background-color: blue;
+  }
+
+  .navbar-links li {
+    padding: 0 15px;
+  }
+
+  .hero-info-heading {
+    font-size: 4rem;
+  }
+
+  .hero-img-item img {
+    width: 20rem;
+    height: 22rem;
+    top: 4.375rem;
+    left: 15rem;
+  }
+
+  .menu-heading {
+    font-size: 3rem;
+  }
 }
