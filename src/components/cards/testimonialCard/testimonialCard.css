@@ -63,4 +63,9 @@
   .t-card-avatar {
     padding-right: 0.75rem;
   }
+
+  .t-card-review {
+    font-size: 0.75rem;
+    width: 9rem;
+  }
 }

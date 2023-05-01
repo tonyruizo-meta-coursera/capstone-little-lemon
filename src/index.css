@@ -84,7 +84,6 @@ ul {
 
   .nav-container {
     font-size: 0.85rem;
-    background-color: red;
   }
 
   .navbar-links li {
@@ -111,6 +110,29 @@ ul {
     font-size: 1.8rem;
   }
 
+  .about-info-container h1 {
+    font-size: 2rem;
+  }
+
+  .about-info-subHeading {
+    font-size: 0.9rem;
+  }
+
+  .about-image-container img {
+    height: 12rem;
+    width: 14rem;
+  }
+
+  .about-info-text {
+    max-width: 30rem;
+    font-size: 0.75rem;
+  }
+
+  .footer-nav,
+  .footer-contact,
+  .footer-social {
+    font-size: 0.75rem;
+  }
 
 }
 
@@ -125,9 +147,6 @@ ul {
     max-width: 70rem;
   }
 
-  .nav-container {
-    background-color: blue;
-  }
 
   .navbar-links li {
     padding: 0 15px;
@@ -146,5 +165,15 @@ ul {
 
   .menu-heading {
     font-size: 3rem;
+  }
+
+  .about-image-container img {
+    height: 18rem;
+    width: 20rem;
+
+  }
+
+  .about-info-text {
+    max-width: 25rem;
   }
 }

@@ -24,7 +24,6 @@
 }
 
 .about-info-text {
-  max-width: 25rem;
   line-height: 1.4;
   font-weight: 500;
   padding: 30px 0;
@@ -41,8 +40,6 @@
 }
 
 .about-image-container img {
-  height: 18rem;
-  width: 20rem;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
