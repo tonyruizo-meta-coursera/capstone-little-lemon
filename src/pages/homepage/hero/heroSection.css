@@ -6,9 +6,7 @@
 }
 
 .hero-container {
-  display: grid;
   margin: 0 auto;
-  grid-template-columns: 1fr 1fr;
   min-height: inherit;
 }
 

@@ -1,10 +1,12 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/img-logos/Logo.svg";
+import { Navbar, Nav } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./nav.css";
 
 
-const Nav = () => {
+const Navi = () => {
+
   const handleClick = (anchor) => () => {
     const id = `${anchor}-section`;
     const element = document.getElementById(id);
@@ -16,37 +18,47 @@ const Nav = () => {
     }
   };
   return (
-    <nav>
-      <div className="nav-container">
-        <div className="logo-nav">
-          <img src={Logo} alt="Logo for the restaurant" />
-        </div>
+    <>
+      <Navbar expand="lg" className="container-md navbar">
+        <Navbar.Brand >
+          <div className="logo-nav">
+            <img src={Logo} alt="Logo for the restaurant" />
+          </div>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto navlinks">
+            <Nav.Item>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+            </Nav.Item>
+            <Nav.Item>
+              <li>
+                <Link to="/#about" onClick={handleClick('about')}>About</Link>
+              </li>
+            </Nav.Item>
+            <Nav.Item>
+              <li>
+                <Link to="/#menu" onClick={handleClick('menu')}>Menu</Link>
+              </li>
+            </Nav.Item>
+            <Nav.Item>
+              <li>
+                <Link to="/reservations">Reservations</Link>
+              </li>
+            </Nav.Item>
+            <Nav.Item>
+              <li>
+                <Link to="/login">Login</Link>
+              </li>
+            </Nav.Item>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </>
 
-        <div className="navbar-links">
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/#about" onClick={handleClick('about')}>About</Link>
-            </li>
-            <li>
-              <Link to="/#menu" onClick={handleClick('menu')}>Menu</Link>
-            </li>
-            <li>
-              <Link to="/reservations">Reservations</Link>
-            </li>
-            <li>
-              <Link to="/menu-page">Order Online</Link>
-            </li>
-            <li>
-              <Link to="/login">Login</Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
   );
 };
 
-export default Nav;
+export default Navi;

@@ -10,7 +10,9 @@ footer {
   grid-template-columns: 20% 26.5% 26.5% 27%;
   margin: 0 auto;
   min-height: inherit;
+
 }
+
 
 .footer-container ul {
   display: flex;
@@ -30,6 +32,7 @@ footer {
 .footer-container .heading {
   color: var(--primary-color-1);
   font-weight: 700;
+  padding-left: 30px;
 }
 
 .footer-logo {
@@ -45,6 +48,7 @@ footer {
 
 .footer-nav {
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
   grid-column: 2/3;
   padding-top: 3.75rem;
@@ -52,8 +56,18 @@ footer {
 
 .footer-contact {
   padding-top: 3.75rem;
+  display: flex;
+  flex-direction: column;
+
 }
+
+
 
 .footer-social {
   padding-top: 3.75rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
 }

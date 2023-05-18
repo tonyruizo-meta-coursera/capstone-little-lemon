@@ -48,6 +48,10 @@ ul {
   list-style-type: none;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .primary-btn {
   background-color: var(--primary-color-1);
   border: none;
@@ -64,21 +68,80 @@ ul {
 }
 
 /* Media queries */
+@media screen and (max-width: 359px) {
 
-@media screen and (min-width: 280px) and (max-width: 767px) {
-  .nav-container {
-    background-color: aqua;
+  .navbar,
+  .hero-container,
+  .menu-container,
+  .testimonial-container,
+  .about-container,
+  .footer-container,
+  .aboutPage-container {
+    max-width: 15rem;
+  }
+
+  .hero-img-item img {
+    display: none;
+  }
+
+  .hero-container {
+    display: flex;
+  }
+
+  .hero-info-text {
+    font-size: 0.7rem;
+  }
+
+  .primary-btn {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+  .navbar,
+  .hero-container,
+  .menu-container,
+  .testimonial-container,
+  .about-container,
+  .footer-container,
+  .aboutPage-container {
+    max-width: 20rem;
+  }
+
+  .hero-container {
+    display: flex;
+  }
+
+  .hero-img-item img {
+    display: none;
+  }
+
+  .hero-info-heading {
+    font-size: 2rem;
+  }
+
+  .hero-info-text {
+    font-size: 0.75rem;
+  }
+
+  .hero-img-item img {
+    width: 10rem;
+    height: 8rem;
+    top: 8.375rem;
+    left: 6.60rem;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1160px) {
 
-  .nav-container,
+  .navbar,
   .hero-container,
   .menu-container,
   .testimonial-container,
   .about-container,
-  .footer-container {
+  .footer-container,
+  .aboutPage-container {
     max-width: 45rem;
   }
 
@@ -88,6 +151,11 @@ ul {
 
   .navbar-links li {
     padding: 0 10px;
+  }
+
+  .hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .hero-info-heading {
@@ -134,16 +202,31 @@ ul {
     font-size: 0.75rem;
   }
 
+  /* About page */
+
+  .aboutPage-image img {
+    width: 20rem;
+  }
+
+  .aboutPage-text {
+    max-width: 20rem;
+  }
+
+  .aboutPage-text p {
+    font-size: 0.75rem;
+  }
+
 }
 
 @media screen and (min-width: 1161px) {
 
-  .nav-container,
+  .navbar,
   .hero-container,
   .menu-container,
   .testimonial-container,
   .about-container,
-  .footer-container {
+  .footer-container,
+  .aboutPage-container {
     max-width: 70rem;
   }
 
@@ -152,8 +235,14 @@ ul {
     padding: 0 15px;
   }
 
+
   .hero-info-heading {
     font-size: 4rem;
+  }
+
+  .hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .hero-img-item img {
@@ -175,5 +264,19 @@ ul {
 
   .about-info-text {
     max-width: 25rem;
+  }
+
+  /* About page */
+
+  .aboutPage-image img {
+    width: 35rem;
+  }
+
+  .aboutPage-text p {
+    font-size: 1rem;
+  }
+
+  .aboutPage-text {
+    max-width: 30rem;
   }
 }

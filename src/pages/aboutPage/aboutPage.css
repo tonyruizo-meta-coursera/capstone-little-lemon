@@ -1,8 +1,8 @@
 .aboutPage-container {
   min-height: 90vh;
-  max-width: 70rem;
   margin: 0 auto;
 }
+
 .aboutPage-header {
   padding: 2rem 0;
 }
@@ -14,7 +14,6 @@
 
 .aboutPage-text {
   grid-column: 1/2;
-  max-width: 30rem;
   align-self: center;
 }
 
@@ -28,9 +27,8 @@
   grid-column: 2/3;
   align-self: center;
 }
-.aboutPage-image img {
-  width: 35rem;
-}
+
+
 
 .aboutPage-btn {
   padding-top: 5rem;

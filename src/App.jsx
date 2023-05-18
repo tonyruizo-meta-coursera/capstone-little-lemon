@@ -1,4 +1,4 @@
-import Nav from "./components/navbar/Nav";
+import Navi from "./components/navbar/Nav";
 import Footer from "./components/footer/Footer";
 import { Routes, Route } from 'react-router-dom';
 import HomePage from "./pages/homepage/HomePage";
@@ -10,7 +10,7 @@ import AboutPage from './pages/aboutPage/AboutPage';
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Navi />
 
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
