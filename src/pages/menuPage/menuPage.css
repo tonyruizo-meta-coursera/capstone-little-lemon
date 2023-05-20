@@ -7,16 +7,3 @@
   align-items: center;
   justify-content: center;
 }
-
-.menuPage-image img {
-  width: 30rem;
-}
-
-.menuPage-btn {
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.menuPage-btn button {
-  margin: 0 20px;
-}

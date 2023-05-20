@@ -3,8 +3,8 @@
 }
 
 .about-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
   margin: 0 auto;
   min-height: inherit;
 }
@@ -16,7 +16,6 @@
 
 .about-info-heading {
   font-family: "Markazi Text", serif;
-  font-size: 4rem;
 }
 
 .about-info-heading {

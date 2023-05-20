@@ -1,5 +1,4 @@
 .aboutPage-container {
-  min-height: 90vh;
   margin: 0 auto;
 }
 
@@ -7,10 +6,7 @@
   padding: 2rem 0;
 }
 
-.aboutPage-display {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+
 
 .aboutPage-text {
   grid-column: 1/2;

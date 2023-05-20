@@ -76,7 +76,8 @@ ul {
   .testimonial-container,
   .about-container,
   .footer-container,
-  .aboutPage-container {
+  .aboutPage-container,
+  .form-container {
     max-width: 15rem;
   }
 
@@ -107,22 +108,70 @@ ul {
     flex-direction: column;
   }
 
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+  }
+
+  .about-info-container h1 {
+    font-size: 2rem;
+  }
+
+  .about-image-container img {
+    display: none;
+  }
+
   .footer-container {
     display: flex;
     flex-direction: column;
-  }
-
-  .footer-nav,
-  .footer-contact,
-  .footer-social {
-    display: flex;
-    padding: 0 5px;
   }
 
   .footer-logo img {
     display: none;
   }
 
+  /* about page */
+  .aboutPage-display {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutPage-imageContainer img {
+    width: 14rem;
+    padding-top: 2rem;
+  }
+
+  .aboutPage-btn {
+    padding-bottom: 2rem;
+  }
+
+  /* Menu page */
+
+  .menuPage-image img {
+    width: 16rem;
+  }
+
+  .menuPage-btn button {
+    margin: 2rem 1rem;
+  }
+
+  /* Login page */
+
+  .login-heading h1 {
+    font-size: 1rem;
+  }
+
+  .login-form input {
+    width: 10rem;
+  }
+
+  /* booking page */
+
+  input,
+  select {
+    width: 5rem;
+  }
 
 }
 
@@ -134,7 +183,8 @@ ul {
   .testimonial-container,
   .about-container,
   .footer-container,
-  .aboutPage-container {
+  .aboutPage-container,
+  .form-container {
     max-width: 20rem;
   }
 
@@ -171,6 +221,63 @@ ul {
     display: flex;
     flex-direction: column;
   }
+
+  .about-container {
+    padding-top: 3rem;
+  }
+
+  .about-info-container h1 {
+    font-size: 2rem;
+  }
+
+  .about-info-text {
+    width: 20rem;
+  }
+
+  .footer-logo img {
+    display: none;
+  }
+
+  .footer-social {
+    padding-bottom: 2rem;
+  }
+
+  /* about page */
+  .aboutPage-imageContainer img {
+    width: 20rem;
+    padding-top: 2rem;
+  }
+
+  .aboutPage-btn {
+    padding-bottom: 2rem;
+  }
+
+  /* Menu page */
+
+  .menuPage-image img {
+    width: 20rem;
+  }
+
+  .menuPage-btn {
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .menuPage-btn button {
+    margin: 0 20px;
+  }
+
+  /* login page */
+  .login-form input {
+    width: 14rem;
+  }
+
+  /* booking page */
+
+  input,
+  select {
+    width: 8rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1160px) {
@@ -181,7 +288,8 @@ ul {
   .testimonial-container,
   .about-container,
   .footer-container,
-  .aboutPage-container {
+  .aboutPage-container,
+  .form-container {
     max-width: 45rem;
   }
 
@@ -219,11 +327,21 @@ ul {
   }
 
   .about-info-container h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
+
 
   .about-info-subHeading {
     font-size: 0.9rem;
+  }
+
+  .about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-info-heading {
+    font-size: 4rem;
   }
 
   .about-image-container img {
@@ -244,6 +362,10 @@ ul {
 
   /* About page */
 
+  .aboutPage-container {
+    min-height: 60vh;
+  }
+
   .aboutPage-image img {
     width: 20rem;
   }
@@ -262,7 +384,43 @@ ul {
     padding-bottom: 8rem;
   }
 
+  .footer-container {
+    display: grid;
+    grid-template-columns: 20% 26.5% 26.5% 27%;
+  }
 
+  /* About page */
+  .aboutPage-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .aboutPage-btn {
+    padding-bottom: 2rem;
+  }
+
+  /* Menu page */
+
+  .menuPage-image img {
+    width: 30rem;
+  }
+
+  .menuPage-btn {
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .menuPage-btn button {
+    margin: 0 20px;
+  }
+
+  /* booking page */
+  input,
+  select {
+    width: 25rem;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
 }
 
 @media screen and (min-width: 1161px) {
@@ -273,7 +431,8 @@ ul {
   .testimonial-container,
   .about-container,
   .footer-container,
-  .aboutPage-container {
+  .aboutPage-container,
+  .form-container {
     max-width: 70rem;
   }
 
@@ -309,10 +468,19 @@ ul {
     padding-bottom: 8rem;
   }
 
+  .about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .about-info-heading {
+    font-size: 4rem;
+  }
+
   .about-image-container img {
     height: 18rem;
     width: 20rem;
-
   }
 
   .about-info-text {
@@ -320,6 +488,14 @@ ul {
   }
 
   /* About page */
+  .aboutPage-container {
+    min-height: 90vh;
+  }
+
+  .aboutPage-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
   .aboutPage-image img {
     width: 35rem;
@@ -333,6 +509,31 @@ ul {
     max-width: 30rem;
   }
 
+  .footer-container {
+    display: grid;
+    grid-template-columns: 20% 26.5% 26.5% 27%;
+  }
 
+  /* Menu page */
 
+  .menuPage-image img {
+    width: 30rem;
+  }
+
+  .menuPage-btn {
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .menuPage-btn button {
+    margin: 0 20px;
+  }
+
+  /* booking page */
+  input,
+  select {
+    width: 25rem;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
 }

@@ -1,9 +1,13 @@
+#formPage-section {
+  background-color: var(--primary-color-2);
+}
+
 .form-container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: var(--primary-color-2);
+  margin: 0 auto;
 }
 
 .form-heading {
@@ -11,12 +15,7 @@
   color: #eee;
 }
 
-input,
-select {
-  width: 25rem;
-  font-size: 1rem;
-  padding: 0.5rem 0;
-}
+
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
