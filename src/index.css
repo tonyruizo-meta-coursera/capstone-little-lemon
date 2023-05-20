@@ -89,12 +89,41 @@ ul {
   }
 
   .hero-info-text {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .primary-btn {
     font-size: 0.8rem;
   }
+
+  .menu-display {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .testimonial-display {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-nav,
+  .footer-contact,
+  .footer-social {
+    display: flex;
+    padding: 0 5px;
+  }
+
+  .footer-logo img {
+    display: none;
+  }
+
+
 }
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
@@ -130,6 +159,17 @@ ul {
     height: 8rem;
     top: 8.375rem;
     left: 6.60rem;
+  }
+
+  .menu-display {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .testimonial-display {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -216,6 +256,13 @@ ul {
     font-size: 0.75rem;
   }
 
+  .testimonial-display {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8rem;
+  }
+
+
 }
 
 @media screen and (min-width: 1161px) {
@@ -256,6 +303,12 @@ ul {
     font-size: 3rem;
   }
 
+  .testimonial-display {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8rem;
+  }
+
   .about-image-container img {
     height: 18rem;
     width: 20rem;
@@ -279,4 +332,7 @@ ul {
   .aboutPage-text {
     max-width: 30rem;
   }
+
+
+
 }

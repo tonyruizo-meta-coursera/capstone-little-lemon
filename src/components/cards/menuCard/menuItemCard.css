@@ -51,9 +51,33 @@
   padding: 25px 0;
 }
 
+@media screen and (max-width: 359px) {
+  .card-container {
+    width: 15rem;
+    margin: 1rem 0;
+  }
+
+  .card-text {
+    font-size: 0.8rem;
+  }
+
+  .t-card-review {
+    font-size: 0.8rem;
+    width: 13rem;
+  }
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .card-container {
+    margin: 1rem 0;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1160px) {
   .card-container {
-    width: 12rem;
+    width: 14rem;
+    margin: 1rem 0;
   }
 
   .card-container img {
@@ -67,5 +91,10 @@
 
   .card-delivery {
     font-size: 0.7rem;
+  }
+
+  .t-card-review {
+
+    width: 15rem;
   }
 }

@@ -5,6 +5,7 @@
   box-shadow: rgba(50, 50, 93, 0.15) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
   overflow: hidden;
+  margin: 1rem 0;
 }
 
 .t-card-container:hover {
@@ -39,7 +40,6 @@
 .t-card-review {
   padding-top: 20px;
   font-family: "Karla", sans-serif;
-  width: 15rem;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1160px) {
@@ -66,5 +66,12 @@
   .t-card-review {
     font-size: 0.75rem;
     width: 9rem;
+  }
+}
+
+@media screen and (min-width: 1161px) {
+  .t-card-container {
+    margin: 0 1rem;
+    max-width: 15rem;
   }
 }
