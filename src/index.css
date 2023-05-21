@@ -52,6 +52,11 @@ ul {
   text-decoration: none;
 }
 
+.primary-btn a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .primary-btn {
   background-color: var(--primary-color-1);
   border: none;
